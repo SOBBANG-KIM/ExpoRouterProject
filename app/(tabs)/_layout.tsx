@@ -37,6 +37,7 @@ export default function TabLayout() {
         name="explore"
         options={{
           title: 'Explore',
+          // href: null, // 경로는 있고 탭으로 안보여주고 싶을때
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
